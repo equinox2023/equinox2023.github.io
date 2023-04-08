@@ -353,7 +353,7 @@ strong {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 2em;
+  font-size: 500em;
   background: none;
   border: none;
   color: #000;
@@ -363,9 +363,9 @@ strong {
 }
 
 
-/* .owl-nav button.owl-prev, .owl-nav button.owl-next {
-  font-size: 50px;
-} */
+owl-nav button.owl-prev, .owl-nav button.owl-next {
+  font-size: 5000px;
+}
 
 
 .owl-prev:hover,
