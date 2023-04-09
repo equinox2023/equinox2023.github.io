@@ -517,6 +517,25 @@ h2.text-center {
   color: white;
 }
 
+/*---------------------------------------
+  Register added by Dev     
+-----------------------------------------*/
+
+.slideable {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+.card:hover .slideable {
+  opacity: 1;
+  max-height: 200px; /* adjust this value to fit the height of your content */
+}
+
+
+
+
 
 
 /*---------------------------------------
@@ -602,9 +621,13 @@ h2.text-center {
 .ticket-section {
   background-image: url('../images/nicholas-green-unsplash-blur.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   position: relative;
+  overflow: hidden;
   padding-top: 130px;
+  backface-visibility: hidden;
+  
 }
 
 .ticket-form {
