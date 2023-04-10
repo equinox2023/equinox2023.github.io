@@ -866,8 +866,13 @@ h2.text-center {
 }
 
 .contact-section{
-margin-top: -200px;
+margin-top: -100px;
 }
+
+.contact-section h2 {
+  color: black;
+}
+
 
 /*---------------------------------------
   CUSTOM FORM               
