@@ -853,11 +853,24 @@ h2.text-center {
 }
 
 
+.video-section {
+  margin-top: 50px;
+}
+
+
 /*---------------------------------------
   CONTACT               
 -----------------------------------------*/
 .google-map {
   border-radius: var(--border-radius-medium);
+}
+
+.contact-section{
+margin-top: -100px;
+}
+
+.contact-section h2 {
+  color: black;
 }
 
 
