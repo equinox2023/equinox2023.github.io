@@ -860,6 +860,9 @@ h2.text-center {
   border-radius: var(--border-radius-medium);
 }
 
+.contact-section{
+margin-top: -200px;
+}
 
 /*---------------------------------------
   CUSTOM FORM               
