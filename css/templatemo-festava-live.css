@@ -370,7 +370,7 @@ owl-nav button.owl-prev, .owl-nav button.owl-next {
 
 .owl-prev:hover,
 .owl-next:hover {
-  color: #007bff;
+  color: #31a340;
 }
 
 .owl-prev {
@@ -641,6 +641,7 @@ h2.text-center {
   min-height: 52px;
   padding-left: 35px;
 }
+
 
 .ticket-form .form-check .form-check-label {
   display: block;
