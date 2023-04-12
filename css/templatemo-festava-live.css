@@ -1,15 +1,15 @@
 
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #F8CB2E;
-  --secondary-color:              #EE5007;
+  --primary-color:                #b76803;
+  --secondary-color:              #624000;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #EE5007;
-  --custom-btn-bg-hover-color:    #c01f27;
+  --custom-btn-bg-color:          #b76803;
+  --custom-btn-bg-hover-color:    #ffb04c;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #7fffd4;
-  --link-hover-color:             #B22727;
+  --link-hover-color:              #b76803;
 
   --body-font-family:             'Outfit', sans-serif;
 
