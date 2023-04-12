@@ -386,12 +386,12 @@ owl-nav button.owl-prev, .owl-nav button.owl-next {
 /*---------------------------------------
   SITE HEADER              
 -----------------------------------------*/
-.site-header {
+/* .site-header {
   background-color: var(--primary-color);
   padding-top: 12px;
   padding-bottom: 12px;
 }
-
+ */
 
 /*---------------------------------------
   NAVIGATION              
@@ -1105,4 +1105,9 @@ margin-top: -100px;
     font-size: 20px;
   }
 }
+
+.sticky-wrapper {
+  margin-top: 0;
+  }
+  
 
