@@ -11,7 +11,9 @@
   --border-color:                 #7fffd4;
   --link-hover-color:              #b76803;
 
-  --body-font-family:             'Outfit', sans-serif;
+  /* --body-font-family:             'Outfit', sans-serif; */
+  --heading-font-family: 'Montserrat' ;
+  --small-font-family: 'Fira Sans';
 
   --h1-font-size:                 74px;
   --h2-font-size:                 46px;
