@@ -617,7 +617,7 @@ h2.text-center {
 
 
 /*---------------------------------------
-  TICKET               
+  Register           
 -----------------------------------------*/
 .ticket-section {
   background-image: url('../images/nicholas-green-unsplash-blur.jpg');
@@ -631,30 +631,6 @@ h2.text-center {
   
 }
 
-.ticket-form {
-  background: var(--white-color);
-  border-radius: var(--border-radius-medium);
-  padding: 50px;
-}
-
-.ticket-form .form-check {
-  position: relative;
-  min-height: 52px;
-  padding-left: 35px;
-}
-
-
-.ticket-form .form-check .form-check-label {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 12px;
-  margin-left: 35px;
-  width: 100%;
-  height: 100%;
-}
 
 
 /*---------------------------------------
@@ -795,220 +771,9 @@ h2.text-center {
 }
 
 
-/*---------------------------------------
-  PRICING              
------------------------------------------*/
-.pricing-thumb {
-  border: 5px dotted var(--dark-color);
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  padding: 50px;
-}
-
-.pricing-thumb h3 small {
-  display: inline-block;
-  font-size: var(--p-font-size);
-  margin-right: 15px;
-}
-
-.pricing-list {
-  column-count: 2;
-  padding-left: 20px;
-}
-
-.pricing-list-item {
-  line-height: normal;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.pricing-tag {
-  background-color: var(--secondary-color);
-  border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-weight: var(--font-weight-bold);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 20px;
-}
-
-.pricing-tag span {
-  font-size: 180%;
-  line-height: normal;
-}
-
-.pricing-thumb .link-fx-1 {
-  color: var(--primary-color);
-}
-
-.pricing-thumb .link-fx-1:hover {
-  color: var(--link-hover-color);
-}
-
-
-.video-section {
-  margin-top: 50px;
-}
-
-/* Video */
-
-/*
- * Bootrap carousel plugin
- * --------------------------------------------------
- */
-
- body{
-  background-color: #fdfdfd;
-  color: #fff;
-}
-
-.youtube-carousel{
-  border: 4px solid #ffffff;
-}
-
-.video-container { 
-   position: relative; /* keeps the aspect ratio */ 
-   padding-bottom: 56.25%; /* fine tunes the video positioning */ 
-   padding-top: 60px; overflow: hidden;
-   margin-bottom: -1px;
-   margin-right: -1px;   
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;  
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%;
-}
-  
-.carousel-control .glyphicon-chevron-left{
-  top:35%;
-  font-size: 20px;
-  left:5%;
-  margin: 0;
-}
-
-.carousel-control .glyphicon-chevron-right{
-  top:35%;
-  font-size: 20px;
-  left:33%;
-  margin: 0;
-}
-
-.carousel-control.left, .carousel-control.right {
-  background-image: none;
-  color: #ffffff;
-  top: 50%;
-  transform: translate(0,-50%);
-  -webkit-transform: translate(0,-50%);
-  -ms-transform: translate(0,-50%);
-  opacity: 1;
-  height:120px;
-}
-
-.controls{
-   display: none;
-}
-
-.carousel-control:hover {
-  text-decoration: none;
-  filter: alpha(opacity=60);
-  outline: 0;
-  opacity: 0.6;
-}
-
-.left-button {
-  height:70px;
-  width:35px;
-  border-radius: 0 90px 90px 0;
-  background-color: #fafafa;
-  display: inline-block;
-  position: relative;
-  margin-right: -1px; /* remove the float and add margin */
-}
-
-.right-button {
-  height:70px;
-  width:35px;
-  border-radius: 90px 0 0 90px;
-  background-color: #e25454;
-  display: inline-block;
-  position: relative;
-  margin-left: -1px; /* remove the float and add margin */
-}
 
 
 
-.carousel-caption {
- display: none;
- background: none repeat scroll 0 0 #e25454;
-  bottom: 0;
-  font-size: 12px;
-  text-align: center;
-  opacity: 1;
-  padding:7px 30px 7px;
-  text-transform: uppercase;
-  z-index:11;
-  pointer-events:none;
-}
-
-@media screen and (min-width: 768px) {
-.right-button {
-  height:120px;
-  width:60px;
-  border-radius: 90px 0 0 90px;
-  -moz-border-radius: 90px 0 0 90px;
-  -webkit-border-radius: 90px 0 0 90px;
-  display: inline-block;
-  position: relative;
-  margin-left: -1px;
-}
-
-.left-button {
-  height:120px;
-  width:60px;
-  border-radius: 0 90px 90px 0;
-  -moz-border-radius: 0 90px 90px 0;
-  -webkit-border-radius: 0 90px 90px 0;
-  display: inline-block;
-  position: relative;
-  margin-left: -1px;
-}
-
-.carousel-control .glyphicon-chevron-left{
-  top:35%;
-  font-size: 35px;
-  left:5%;
-}
-
-.carousel-control .glyphicon-chevron-right{
-  top:35%;
-  font-size: 35px;
-  left:35%;
-}
-
-.carousel-caption {
-  font-size: 18px;
-  padding:15px 20px 15px;
-  }
-}
-@media screen and (min-width: 992px) {
- .carousel-caption {
-    font-size: 18px;
-    padding:15px 20px 15px;
-  }
-}
 
 /*---------------------------------------
   CONTACT               
@@ -1203,9 +968,7 @@ margin-top: -50px;
     padding-top: 150px;
   }
 
-  .pricing-thumb {
-    padding: 35px;
-  }
+  
 
   .schedule-table h3 {
     font-size: 22px;
