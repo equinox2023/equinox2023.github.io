@@ -1029,5 +1029,8 @@ margin-top: -50px;
   html, body {
     overflow-x: hidden;
   }
-   
 
+
+.video-section {
+margin-top: 30px;
+}
